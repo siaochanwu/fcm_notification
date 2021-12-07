@@ -46,7 +46,7 @@ module.exports = {
 
       let message = {
         notification: {
-        title: "This is a Notification",
+        title: "DONT BE SURPRISE!",
         body: "This is the body of the notification message."
       },
         token: receiveUser,

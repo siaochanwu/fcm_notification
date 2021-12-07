@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/test', function(req, res, next) {
-  firebase.sendMessage(process.env.TOKEN)
+  firebase.sendMessage(req.query.data)
 
   res.json()
 });
